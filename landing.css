@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"PT Serif",Arial, Helvetica, sans-serif;
+    font-size:45px;
+    letter-spacing: 5px;
+    background-color: #3D5A80;
+    overflow-x: hidden;
+}
+.pt-serif-regular {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.pt-serif-bold {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+.pt-serif-regular-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+  
+.pt-serif-bold-italic {
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+header {
+    position: relative; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%;
+    height: 250px;
+    padding: 0 20px; 
+    background-color: #1F3A5F;
+    color:#FFFFFF;
+}
+
+header h1 {
+    font-size: 75px;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    z-index: 1;
+    background-color: #1F3A5F;
+}
+
+#icon {
+    display: flex;
+    position: absolute;
+    right: 5%;
+    width: 23%; 
+    height: 250px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #1F3A5F; 
+    z-index: 10;
+}
+
+.icon_custom {
+    color: #fff;
+    font-size: 85px;
+    background-color: #1F3A5F; 
+}
+header a{
+    background-color: #1F3A5F; 
+    width: 100px;
+    height: 100px;
+}
+
+main{
+    
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.pop-up{
+    display:none;
+}
+section{
+    border-radius: 15px;
+    border: 5px solid #e0e0e0;
+    width:20%;
+    height: 600px;
+    margin-bottom:20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+section span{
+    margin-top:5%;
+}
+.tab-container {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.tab-buttons {
+    display: flex;
+    border-bottom: 5px solid #e0e0e0;
+    justify-content: flex;
+}
+
+.tab-link {
+    background-color: #acc2ef;
+    color: white;
+    border-radius:10px 10px 0 0;
+    padding: 15px 20px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.tab-link:hover {
+    background-color: #293B5F;
+}
+
+.tab-link.active {
+    background-color: #1F3A5F;
+    display: flex;
+}
+
+.tab-content {
+    display:none;
+    flex-wrap: wrap;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+
+.tab-content h2 {
+    margin-top: 0;
+}
+.option{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin:1%;
+    gap: 1%;
+}
+.customer{
+    background: none;
+}
